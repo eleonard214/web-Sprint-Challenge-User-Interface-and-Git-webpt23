@@ -70,7 +70,34 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-
+.container1{
+    width: 800px;
+    margin:10px auto;
+    display:flex;
+}
+.container1 nav{
+    display:flex;
+    
+margin:10px;
+}
+#home{
+   
+    margin-right: 80px;
+    margin-left:20px;
+}
+#about{
+    
+    margin-left:20px;
+    margin-right:80px;
+}
+#products{
+    margin-left:20px;
+    margin-right:80px;
+}
+#blog{
+    margin-left:20px;
+    margin-right:10px;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -82,7 +109,8 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px; 
+    margin-top:10px; 
 }
 
 .middle-content {
@@ -100,8 +128,7 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
-.middle-content .boxes .box {
+.box  {
     width: 12.5%;
     height: 100px;
     background: black;
@@ -111,6 +138,44 @@ p {
     align-items: center;
     justify-content: center;
 }
+#teal  {
+    
+    background: teal;
+   
+}
+#gold  {
+    background: gold;
+}
+#cadetblue  {
+    background: cadetblue;
+}
+#coral  {
+    background: coral;
+}
+#crimson  {
+    background: crimson;
+}
+#forestgreen  {
+    background: forestgreen;
+}
+#darkorchid  {
+    background: darkorchid;
+}
+#hotpink  {
+    background: hotpink;
+}
+#indigo {
+    background: indigo;
+}
+#dodgerblue  {
+    background: dodgerblue;
+}
+
+
+
+
+
+
 
 .bottom-content {
     display: flex;
@@ -144,3 +209,5 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*end of main CSS, start of about page CSS*/
